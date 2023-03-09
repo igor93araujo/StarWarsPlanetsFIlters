@@ -8,12 +8,6 @@
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
   Desenvolvi uma lista com filtros de planetas do universo de Star Wars usando **Context API e Hooks** para controlar os estados globais.
-
-  **Segue link do deploy de um modelo do projeto:**
-  http://trybe-starwars-exemplo.surge.sh/
-
-  :warning:**IMPORTANTE**: O modelo serve apenas para fins de ilustração. Para desenvolver o projeto, é mandatório que você siga os requisitos apontados no Readme.
-
 </details>
 
 <details>
@@ -27,5 +21,11 @@
   * Utilizar o _React Hook useEffect_;
   * Criar _React Hooks_ customizados.
   * Escrever testes para garantir que sua aplicação possua uma boa cobertura de testes.
+</details>
 
+# Para utilização
+<details>
+  <summary><strong>👨‍💻 Não se esqueça</strong></summary><br />
+
+  Realize o npm install antes de iniciar e rode com npm start
 </details>
