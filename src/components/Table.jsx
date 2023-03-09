@@ -80,6 +80,16 @@ export default function Table() {
                 value={ selected.value }
                 placeholder="Valor"
                 onChange={ (e) => setSelected({ ...selected, value: e.target.value }) }
+                onKeyDown={ (e) => {
+                  if (e.key === 'Enter') {
+                    setUsedFilters([...usedFilters, selected]);
+                    setColumnOptions(columnOptions.filter((el) => el !== selected.column));
+                    setSelected({
+                      ...selected,
+                      column: columnOptions[0],
+                    });
+                  }
+                } }
               />
               <button
                 type="button"
