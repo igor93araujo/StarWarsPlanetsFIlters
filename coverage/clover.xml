@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1677764000552" clover="3.2.0">
+  <project timestamp="1677764000552" name="All files">
+    <metrics statements="76" coveredstatements="61" conditionals="14" coveredconditionals="6" methods="35" coveredmethods="28" elements="125" coveredelements="95" complexity="0" loc="76" ncloc="76" packages="4" files="9" classes="9"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.css" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/App.css">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="App.js" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="29" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="20" coveredmethods="14"/>
+      <file name="FilteredRefs.jsx" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/components/FilteredRefs.jsx">
+        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="9" count="47" type="stmt"/>
+        <line num="11" count="47" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+      </file>
+      <file name="Table.css" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/components/Table.css">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="Table.jsx" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/components/Table.jsx">
+        <metrics statements="16" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="9"/>
+        <line num="22" count="47" type="stmt"/>
+        <line num="24" count="47" type="stmt"/>
+        <line num="32" count="47" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="57" count="232" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="93" count="15" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="110" count="235" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+      </file>
+      <file name="TablePlanets.jsx" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/components/TablePlanets.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="8" count="47" type="stmt"/>
+        <line num="10" count="47" type="stmt"/>
+        <line num="16" count="364" type="stmt"/>
+        <line num="24" count="250" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.context">
+      <metrics statements="44" coveredstatements="38" conditionals="12" coveredconditionals="4" methods="14" coveredmethods="13"/>
+      <file name="PlanetsProvider.jsx" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/context/PlanetsProvider.jsx">
+        <metrics statements="43" coveredstatements="37" conditionals="12" coveredconditionals="4" methods="14" coveredmethods="13"/>
+        <line num="6" count="47" type="stmt"/>
+        <line num="7" count="47" type="stmt"/>
+        <line num="8" count="47" type="stmt"/>
+        <line num="10" count="47" type="stmt"/>
+        <line num="11" count="19" type="stmt"/>
+        <line num="12" count="19" type="stmt"/>
+        <line num="13" count="19" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
+        <line num="15" count="190" type="stmt"/>
+        <line num="16" count="19" type="stmt"/>
+        <line num="19" count="47" type="stmt"/>
+        <line num="20" count="19" type="stmt"/>
+        <line num="23" count="47" type="stmt"/>
+        <line num="29" count="47" type="stmt"/>
+        <line num="38" count="47" type="stmt"/>
+        <line num="43" count="47" type="stmt"/>
+        <line num="46" count="47" type="stmt"/>
+        <line num="47" count="47" type="stmt"/>
+        <line num="48" count="280" type="stmt"/>
+        <line num="50" count="47" type="stmt"/>
+        <line num="51" count="266" type="stmt"/>
+        <line num="52" count="30" type="cond" truecount="3" falsecount="1"/>
+        <line num="54" count="10" type="stmt"/>
+        <line num="56" count="10" type="stmt"/>
+        <line num="58" count="10" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="266" type="stmt"/>
+        <line num="65" count="47" type="stmt"/>
+        <line num="69" count="232" type="stmt"/>
+        <line num="71" count="47" type="stmt"/>
+        <line num="73" count="47" type="stmt"/>
+        <line num="74" count="47" type="stmt"/>
+        <line num="76" count="47" type="cond" truecount="1" falsecount="1"/>
+        <line num="77" count="47" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="89" count="47" type="stmt"/>
+        <line num="90" count="47" type="stmt"/>
+        <line num="128" count="47" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+      </file>
+      <file name="planetsContext.jsx" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/context/planetsContext.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.tests">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="mockData.js" path="/home/igor/Desktop/TRYBE/projetos/FrontEnd/sd-027-b-project-starwars-planets-search/src/tests/mockData.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

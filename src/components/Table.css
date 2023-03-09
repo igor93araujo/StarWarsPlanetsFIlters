@@ -1,0 +1,98 @@
+.fullContainer {
+  height: fit-content;
+  margin-top: -5%;
+  overflow-y: hidden;
+}
+
+.tableHeader {
+  background-color: rgba(220, 168, 12, 0.97);
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 8px;
+  text-align: center;
+  width: 250px;
+}
+
+.secondFilter {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: space-around;
+  margin: 2% 4%;
+  padding: 2%;
+}
+
+.secondFilter input, select {
+  background-color: rgba(240, 235, 235, 0.242);
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 8px;
+  text-align: center;
+}
+
+.secondFilter button {
+  background-color: rgba(220, 168, 12, 0.97);
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 8px;
+  text-align: center;
+}
+
+.leftFilter {
+  align-items: center;
+  display: flex;
+  height: 3rem;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  width: 80%;
+}
+
+.rightFilter {
+  align-items: center;
+  display: flex;
+  gap: 2%;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.last {
+  display: flex;
+}
+
+.inputBox {
+  align-items: center;
+  display: flex;
+  gap: 5%;
+}
+
+.last input {
+  margin-right: 5%;
+  width: 50%;
+}
+
+.leftFilter option, .rightFilter option {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 8px;
+  text-align: center;
+}

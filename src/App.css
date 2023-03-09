@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fullPage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App {
+  background-image: url('./images/startwarsbackg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.welcomepg {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.grafismoImg, .groupImg {
+  position: absolute;
+}
+
+.grafismoImg {
+  top: 0;
+  width: 60%;
+}
+
+.groupImg {
+  top: 25%;
+  width: 25%;
+}
+
+.fullContainer {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin: 0 10%;
+  overflow-y: scroll;
+  padding: 3% 2%;
+  width: 90%;
+}
+
+.searchContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.inputFilter {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 8px;
+  text-align: center;
+  width: 450px;
+}
+
+.searchIcon {
+  border: none;
+  color: white;
+}
+
+.filmsRow {
+  flex-basis: content;
+  max-width: 200px;
+}
+
+.filmsRow a {
+  color: white;
+  flex-basis: content;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 8px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.fullTable td {
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px;
+  text-align: center;
+}
