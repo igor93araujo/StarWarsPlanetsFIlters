@@ -3,7 +3,6 @@
 ![img](projectIntro.gif)
 
 # Entregáveis
-
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
@@ -29,4 +28,7 @@
   Para execução do projeto abra o terminal, rode o npm install antes de iniciar e, depois, rode com npm start.
 </details>
 
+# Demonstação
 ![img](StarWarsFIlters.gif)
+
+# Teste aqui: <a href: "https://star-wars-planets-filters-nine.vercel.app/">Star Wars Filters</a>
