@@ -26,6 +26,7 @@
 # Para utilização
 <details>
   <summary><strong>👨‍💻 Não se esqueça</strong></summary><br />
-
-  Realize o npm install antes de iniciar e rode com npm start
+  Para execução do projeto abra o terminal, rode o npm install antes de iniciar e, depois, rode com npm start.
 </details>
+
+![img](StarWarsFIlters.gif)
